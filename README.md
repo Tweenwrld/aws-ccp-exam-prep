@@ -1,10 +1,11 @@
 # AWS CCP Timed Learning Game
 
-A professional, exam-style timed learning game for AWS Certified Cloud Practitioner (CCP) exam preparation. Features 457 practice questions with a realistic 40-minute, 69-question session format.
+A professional, exam-style timed learning game for AWS Certified Cloud Practitioner (CCP) exam preparation. Features 484 practice questions with a realistic 40-minute, 69-question session format.
 
 ## 🎯 Features
 
-- **457 Practice Questions** extracted from comprehensive study materials
+- **484 Practice Questions** extracted from comprehensive study materials
+- **Multi-Choice Support**: Questions with "Choose two" or "Choose three" properly handled
 - **Realistic Exam Simulation**: 69 questions per session, 40-minute timer
 - **Professional Interface**: Dark theme with modern design and smooth animations
 - **Smart Timer**: Visual warnings at 5 minutes and 1 minute remaining
@@ -39,11 +40,16 @@ python3 -m http.server 8000
 aws-ccp-exam-prep/
 ├── index.html              # Main application HTML
 ├── styles.css              # Professional styling and animations
-├── app.js                  # Game logic and session management
+├── js/                     # Modular JavaScript application
+│   ├── app.js             # Main controller
+│   ├── config.js          # Configuration
+│   ├── questionService.js # Question loading
+│   ├── sessionManager.js  # Session logic
+│   ├── timerController.js # Timer functionality
+│   └── uiController.js    # UI rendering
 ├── exam_parser.py          # Question extraction script
-├── questions_bank.json     # Structured question database (457 questions)
+├── questions_bank.json     # Question database (484 questions)
 ├── amazon.md               # Source content (26,385 lines)
-├── amazon.pdf              # Additional study material
 └── README.md               # This file
 ```
 
@@ -84,6 +90,31 @@ python3 exam_parser.py
 ```
 
 This will re-parse `amazon.md` and regenerate `questions_bank.json`.
+
+## 🚀 Deployment
+
+### Deploy to Vercel
+
+**Quick Deploy (CLI)**:
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Login and deploy
+vercel login
+vercel
+
+# Production deployment
+vercel --prod
+```
+
+**Via GitHub**:
+1. Push to GitHub repository
+2. Go to https://vercel.com/new
+3. Import your repository
+4. Deploy with default settings (no build needed)
+
+**Configuration**: The project includes `vercel.json` for optimal static site hosting.
 
 ## 📊 Question Format
 
@@ -132,7 +163,7 @@ Each question follows the AWS exam format:
 
 ### Performance
 
-- Loads 457 questions instantly
+- Loads 484 questions instantly
 - Smooth 60fps animations
 - Minimal memory footprint
 - No external dependencies
@@ -143,7 +174,7 @@ Each question follows the AWS exam format:
 |---------|---------------|
 | Questions per Session | 69 |
 | Session Duration | 40 minutes |
-| Total Question Bank | 457 |
+| Total Question Bank | 484 |
 | Question Selection | Random |
 | Timer Warnings | 5 min, 1 min |
 | Auto-Submit | Yes (on timer expiry) |
@@ -161,15 +192,22 @@ Each question follows the AWS exam format:
 
 Educational use only. Based on AWS CCP exam preparation materials.
 
+## 📋 Changelog
+
+### December 11, 2025
+- ✅ **Fixed multi-choice questions**: All 75 questions with "Choose two/three" now have complete correct answers
+- 🔧 **Parser update**: `exam_parser.py` now extracts all correct answers (format: "A and E")
+- 📊 **Question count**: Updated from 457 to 484 questions
+- 🧹 **Code cleanup**: Removed redundant documentation files
+
 ## 👤 Author
 
 Maintained by [@Tweenwrld](https://github.com/Tweenwrld)
 
-## 🔗 Related Files
+## 📖 Additional Documentation
 
-- [Implementation Plan](file:///home/cliente/.gemini/antigravity/brain/6d925821-89cd-4538-ae0c-956f91bdec6a/implementation_plan.md)
-- [Walkthrough](file:///home/cliente/.gemini/antigravity/brain/6d925821-89cd-4538-ae0c-956f91bdec6a/walkthrough.md)
-- [Task Breakdown](file:///home/cliente/.gemini/antigravity/brain/6d925821-89cd-4538-ae0c-956f91bdec6a/task.md)
+- [ARCHITECTURE.md](ARCHITECTURE.md) - Technical architecture and design patterns
+- [FIX_SUMMARY.md](FIX_SUMMARY.md) - Multi-choice question fix details
 
 ---
 
