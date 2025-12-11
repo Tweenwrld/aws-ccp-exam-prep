@@ -104,17 +104,18 @@ def parse_question_block(block):
     # Extract correct answer
     if answer_line > 0:
         answer_line_text = lines[answer_line]
-        # Try multiple patterns
-        answer_match = re.search(r'Correct Answer:\*\*\s*([A-E])', answer_line_text)
-        if answer_match:
-            correct_answer = answer_match.group(1)
-        else:
-            # Try to find pattern like "A and B" or "A. Something and B. Something"
-            answer_text = answer_line_text.split('**Correct Answer:**')[1] if '**Correct Answer:**' in answer_line_text else ""
-            # Extract first letter A-E
-            first_letter = re.search(r'\b([A-E])\b', answer_text)
-            if first_letter:
-                correct_answer = first_letter.group(1)
+        # Try to extract the answer text after "**Correct Answer:**"
+        if '**Correct Answer:**' in answer_line_text:
+            answer_text = answer_line_text.split('**Correct Answer:**')[1].strip()
+            # Extract all letters A-E from the answer text
+            all_letters = re.findall(r'\b([A-E])\b', answer_text)
+            if all_letters:
+                if len(all_letters) > 1:
+                    # Multiple correct answers: join with " and "
+                    correct_answer = " and ".join(all_letters)
+                else:
+                    # Single correct answer
+                    correct_answer = all_letters[0]
     
     # Validate we have all required fields
     if question_text and len(options) >= 2 and correct_answer:

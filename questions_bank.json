@@ -42,7 +42,7 @@
       "D": "Amazon SageMaker",
       "E": "AWS Compute Optimizer"
     },
-    "correct": "A"
+    "correct": "A and E"
   },
   {
     "id": "10",
@@ -54,7 +54,7 @@
       "D": "Improving security by proactively monitoring the AWS environment",
       "E": "Implementing enforced tagging across AWS resources"
     },
-    "correct": "C"
+    "correct": "C and D"
   },
   {
     "id": "11",
@@ -99,7 +99,7 @@
       "D": "Amazon QuickSight",
       "E": "Amazon Quantum Ledger Database (Amazon QLDB)"
     },
-    "correct": "A"
+    "correct": "A and D"
   },
   {
     "id": "15",
@@ -243,7 +243,7 @@
       "D": "Amazon CloudWatch",
       "E": "AWS Cost and Usage Report"
     },
-    "correct": "B"
+    "correct": "B and D"
   },
   {
     "id": "28",
@@ -266,7 +266,7 @@
       "D": "Patch or upgrade Amazon DynamoDB",
       "E": "Select Amazon EC2 instances to run AWS Lambda on"
     },
-    "correct": "A"
+    "correct": "A and B"
   },
   {
     "id": "30",
@@ -278,7 +278,7 @@
       "D": "Responsive design",
       "E": "Operational excellence"
     },
-    "correct": "B"
+    "correct": "B and E"
   },
   {
     "id": "31",
@@ -312,7 +312,7 @@
       "D": "The elimination of wasted capacity",
       "E": "The low cost of entry into cloud computing"
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "35",
@@ -379,7 +379,7 @@
       "D": "The pay-as-you-go billing model",
       "E": "How easily resources can be procured when they are needed"
     },
-    "correct": "B"
+    "correct": "B and E"
   },
   {
     "id": "41",
@@ -446,7 +446,7 @@
       "D": "Savings Plans",
       "E": "Dedicated Hosts"
     },
-    "correct": "C"
+    "correct": "C and D"
   },
   {
     "id": "47",
@@ -557,7 +557,7 @@
       "D": "Amazon CloudWatch",
       "E": "AWS CloudTrail"
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "60",
@@ -613,7 +613,7 @@
       "D": "AWS Site-to-Site VPN",
       "E": "Amazon Elastic Container Service (Amazon ECS)"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "65",
@@ -647,7 +647,7 @@
       "D": "AWS Shield",
       "E": "Amazon GuardDuty"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "68",
@@ -703,7 +703,7 @@
       "D": "Focus on managing hardware infrastructure",
       "E": "Overprovision to ensure capacity"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "74",
@@ -770,7 +770,7 @@
       "D": "Installment payment options",
       "E": "Custom cost and usage budget creation"
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "80",
@@ -848,7 +848,7 @@
       "D": "No longer having to guess what capacity will be required",
       "E": "No longer worrying about users access controls"
     },
-    "correct": "B"
+    "correct": "B and D"
   },
   {
     "id": "87",
@@ -904,7 +904,7 @@
       "D": "AWS does not charge for data sent from the AWS Cloud to the internet",
       "E": "AWS eliminates many of the costs of building and maintaining on-premises data centers"
     },
-    "correct": "B"
+    "correct": "B and E"
   },
   {
     "id": "94",
@@ -982,7 +982,7 @@
       "D": "Secure edge locations",
       "E": "Patch Amazon RDS DB instances"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "101",
@@ -1027,7 +1027,7 @@
       "D": "Purchase AWS security and compliance documents",
       "E": "Order AWS Snowball"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "105",
@@ -1039,7 +1039,7 @@
       "D": "Reducing traffic on the server by caching responses",
       "E": "Sending notification messages to end users"
     },
-    "correct": "B"
+    "correct": "B and D"
   },
   {
     "id": "106",
@@ -1073,7 +1073,7 @@
       "D": "Replacing failed hard disk drives",
       "E": "Deploying hardware in different Availability Zones"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "109",
@@ -1085,7 +1085,7 @@
       "D": "Physical security of hardware",
       "E": "Credentials and policies"
     },
-    "correct": "A"
+    "correct": "A and D"
   },
   {
     "id": "110",
@@ -1096,7 +1096,7 @@
       "C": "Project management",
       "D": "Operating system administration"
     },
-    "correct": "A"
+    "correct": "A and D"
   },
   {
     "id": "111",
@@ -1141,7 +1141,7 @@
       "D": "Physical and environmental controls",
       "E": "Service and communications protection or security"
     },
-    "correct": "C"
+    "correct": "C and E"
   },
   {
     "id": "115",
@@ -1175,7 +1175,7 @@
       "D": "Physical servers",
       "E": "Antivirus software license"
     },
-    "correct": "C"
+    "correct": "C and D"
   },
   {
     "id": "118",
@@ -1187,7 +1187,7 @@
       "D": "AWS Basic Support",
       "E": "AWS Business Support"
     },
-    "correct": "A"
+    "correct": "A and B"
   },
   {
     "id": "119",
@@ -1221,7 +1221,7 @@
       "D": "Creation of DynamoDB endpoints",
       "E": "Infrastructure provisioning and maintenance"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "123",
@@ -1254,7 +1254,7 @@
       "C": "A minimum of three",
       "D": "A minimum of four or more"
     },
-    "correct": "B"
+    "correct": "B and A"
   },
   {
     "id": "126",
@@ -1288,7 +1288,7 @@
       "D": "Security of data in transit",
       "E": "Data integrity authentication"
     },
-    "correct": "D"
+    "correct": "D and E"
   },
   {
     "id": "129",
@@ -1322,7 +1322,7 @@
       "D": "Users have the ability to use license-included Amazon EC2 instances.",
       "E": "Users can take advantage of AWS Systems Manager features."
     },
-    "correct": "A"
+    "correct": "A and E"
   },
   {
     "id": "132",
@@ -1356,7 +1356,7 @@
       "D": "Creating an Amazon CloudFront key pair",
       "E": "Granting an IAM user full administrative access"
     },
-    "correct": "C"
+    "correct": "C and E"
   },
   {
     "id": "135",
@@ -1412,7 +1412,7 @@
       "D": "Enhanced security",
       "E": "Increases in cost and complexity"
     },
-    "correct": "B"
+    "correct": "B and D"
   },
   {
     "id": "140",
@@ -1435,7 +1435,7 @@
       "D": "Zone security",
       "E": "Application data encryption"
     },
-    "correct": "B"
+    "correct": "B and E"
   },
   {
     "id": "142",
@@ -1513,7 +1513,7 @@
       "D": "Increased upfront capital expenditure",
       "E": "Physical access to cloud data centers"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "148",
@@ -1525,7 +1525,7 @@
       "D": "Encrypting communication between the EC2 instances and the Elastic Load Balancer",
       "E": "Configuring a security group and a network access control list (NACL) for EC2 instances"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "149",
@@ -1757,7 +1757,7 @@
       "D": "AWS shared responsibility model",
       "E": "Pay-as-you-go pricing"
     },
-    "correct": "B"
+    "correct": "B and E"
   },
   {
     "id": "172",
@@ -1769,7 +1769,7 @@
       "D": "Adopting a consumption model",
       "E": "Automatically recovering from failure"
     },
-    "correct": "C"
+    "correct": "C and E"
   },
   {
     "id": "173",
@@ -1803,7 +1803,7 @@
       "D": "AWS Partner Network (APN)",
       "E": "AWS Secrets Manager"
     },
-    "correct": "A"
+    "correct": "A and D"
   },
   {
     "id": "175",
@@ -1815,7 +1815,7 @@
       "D": "AWS Partner Network (APN)",
       "E": "AWS Secrets Manager"
     },
-    "correct": "A"
+    "correct": "A and D"
   },
   {
     "id": "176",
@@ -1904,7 +1904,7 @@
       "D": "Installment payment options",
       "E": "Custom cost and usage budget creation"
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "184",
@@ -1938,7 +1938,7 @@
       "D": "Billing alerts and Amazon CloudWatch alarms",
       "E": "AWS Price List API"
     },
-    "correct": "A"
+    "correct": "A and D"
   },
   {
     "id": "187",
@@ -2049,7 +2049,7 @@
       "D": "Enhanced security",
       "E": "Increases in cost and complexity"
     },
-    "correct": "B"
+    "correct": "B and D"
   },
   {
     "id": "197",
@@ -2116,7 +2116,7 @@
       "D": "Wipe Amazon Elastic Block Store (Amazon EBS) volumes clean before they are decommissioned",
       "E": "Conduct database patching for Amazon RDS instances"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "202",
@@ -2293,7 +2293,7 @@
       "D": "Networking infrastructure protection",
       "E": "Security groups configuration"
     },
-    "correct": "C"
+    "correct": "C and E"
   },
   {
     "id": "217",
@@ -2305,7 +2305,7 @@
       "D": "Networking infrastructure protection",
       "E": "Security groups configuration"
     },
-    "correct": "C"
+    "correct": "C and E"
   },
   {
     "id": "219",
@@ -2317,7 +2317,7 @@
       "D": "Outbound data transfers without acceleration",
       "E": "Compute resources that are currently in use"
     },
-    "correct": "D"
+    "correct": "D and E"
   },
   {
     "id": "220",
@@ -2351,7 +2351,7 @@
       "D": "Access to AWS data centers",
       "E": "Lower resource provisioning cost"
     },
-    "correct": "A"
+    "correct": "A and B"
   },
   {
     "id": "223",
@@ -2385,7 +2385,7 @@
       "D": "Connect the company’s on-premises data center to AWS using AWS Direct Connect",
       "E": "Leverage Amazon CloudFront to restrict access to static web content provided through the company’s on-premises web servers"
     },
-    "correct": "B"
+    "correct": "B and D"
   },
   {
     "id": "226",
@@ -2528,7 +2528,7 @@
       "C": "An Application Load Balancer, web server, and database server that support a monolithic application",
       "D": "A legacy database server that is running on the maximum instance size supported by its license"
     },
-    "correct": "B"
+    "correct": "B and A"
   },
   {
     "id": "239",
@@ -2694,7 +2694,7 @@
       "D": "Using AWS compliance documents to accelerate the compliance process",
       "E": "Having the ability to create and govern environments using code"
     },
-    "correct": "A"
+    "correct": "A and B"
   },
   {
     "id": "259",
@@ -2706,7 +2706,7 @@
       "D": "AWS manages the development of applications on AWS",
       "E": "AWS manages cost planning for virtual servers"
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "260",
@@ -2740,7 +2740,7 @@
       "D": "Increasing the availability of the application",
       "E": "Increasing the load of the application"
     },
-    "correct": "A"
+    "correct": "A and D"
   },
   {
     "id": "263",
@@ -2774,7 +2774,7 @@
       "D": "Rightsize when seasonal workloads are at their peak",
       "E": "Rightsize after purchasing all Reserved Instances"
     },
-    "correct": "A"
+    "correct": "A and B"
   },
   {
     "id": "266",
@@ -2797,7 +2797,7 @@
       "D": "AWS shared responsibility model",
       "E": "Pay-as-you-go pricing"
     },
-    "correct": "B"
+    "correct": "B and E"
   },
   {
     "id": "268",
@@ -2898,7 +2898,7 @@
       "D": "Configuring database user accounts",
       "E": "Installing operating systems"
     },
-    "correct": "C"
+    "correct": "C and E"
   },
   {
     "id": "277",
@@ -2910,7 +2910,7 @@
       "D": "AWS Total Cost of Ownership (TCO) Calculator",
       "E": "Cost Estimator"
     },
-    "correct": "B"
+    "correct": "B and C and D"
   },
   {
     "id": "278",
@@ -2966,7 +2966,7 @@
       "D": "When the company needs to add users to IAM groups",
       "E": "When users are authenticated in the corporate network and want to be able to use AWS without having to sign in a second time"
     },
-    "correct": "B"
+    "correct": "B and D"
   },
   {
     "id": "283",
@@ -3011,7 +3011,7 @@
       "D": "AWS Application Discovery Service",
       "E": "Amazon Kinesis"
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "286",
@@ -3023,7 +3023,7 @@
       "D": "AWS Wavelength",
       "E": "Amazon VPC"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "288",
@@ -3035,7 +3035,7 @@
       "D": "Hypervisor-level software patching",
       "E": "Physical security at data center facilities"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "289",
@@ -3124,7 +3124,7 @@
       "D": "It automatically corrects potential security issues caused by permissions settings on account resources",
       "E": "It provides proactive alerting whenever an Amazon EC2 instance has been compromised"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "297",
@@ -3191,7 +3191,7 @@
       "D": "Colocation",
       "E": "Capital expenses"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "303",
@@ -3280,7 +3280,7 @@
       "D": "AWS Site-to-Site VPN",
       "E": "Amazon ECS"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "312",
@@ -3314,7 +3314,7 @@
       "D": "Amazon CloudFront",
       "E": "Amazon DynamoDB"
     },
-    "correct": "A"
+    "correct": "A and D"
   },
   {
     "id": "315",
@@ -3359,7 +3359,7 @@
       "D": "Well-Architected Framework",
       "E": "Rightsizing"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "320",
@@ -3470,7 +3470,7 @@
       "D": "Enabling multi-factor authentication (MFA) with Amazon Cognito",
       "E": "Using AWS Trusted Advisor security checks"
     },
-    "correct": "D"
+    "correct": "D and E"
   },
   {
     "id": "381",
@@ -3581,7 +3581,7 @@
       "D": "Attach administrator access policy to IAM user",
       "E": "Attach IAM policy with Amazon RDS access to IAM user"
     },
-    "correct": "B"
+    "correct": "B and E"
   },
   {
     "id": "391",
@@ -3626,7 +3626,7 @@
       "D": "Increased agility",
       "E": "AWS holds responsibility for security in the cloud"
     },
-    "correct": "B"
+    "correct": "B and D"
   },
   {
     "id": "396",
@@ -4386,7 +4386,7 @@
       "D": "Application developer time",
       "E": "Database engine capacity"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "476",
@@ -4398,7 +4398,7 @@
       "D": "Application developer time",
       "E": "Database engine capacity"
     },
-    "correct": "B"
+    "correct": "B and C"
   },
   {
     "id": "478",
@@ -4487,7 +4487,7 @@
       "D": "Creating database schema",
       "E": "Running penetration tests"
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "486",
@@ -4543,7 +4543,7 @@
       "D": "Prevent password changes",
       "E": "Enforce minimum password length"
     },
-    "correct": "A"
+    "correct": "A and E"
   },
   {
     "id": "496",
@@ -4786,7 +4786,7 @@
       "D": "Require IAM users to store their passwords in raw text",
       "E": "Disable multi-factor authentication (MFA) for IAM users"
     },
-    "correct": "D"
+    "correct": "D and E"
   },
   {
     "id": "519",
@@ -5062,7 +5062,7 @@
       "D": "Rely on individual components.",
       "E": "Design for scalability."
     },
-    "correct": "C"
+    "correct": "C and E"
   },
   {
     "id": "545",
@@ -5129,7 +5129,7 @@
       "D": "Test for moderate demand to ensure reliability",
       "E": "Backup recovery to an on-premises environment"
     },
-    "correct": "A"
+    "correct": "A and B"
   },
   {
     "id": "551",
@@ -5207,7 +5207,7 @@
       "D": "Grant users access to AWS data centers.",
       "E": "Provide firewall protection for applications from common web attacks."
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "558",
@@ -5252,7 +5252,7 @@
       "D": "Physical and environmental security",
       "E": "Replacement and disposal of disk drives"
     },
-    "correct": "A"
+    "correct": "A and C"
   },
   {
     "id": "562",
@@ -5319,7 +5319,7 @@
       "D": "AWS Organizations",
       "E": "Network ACLs"
     },
-    "correct": "A"
+    "correct": "A and E"
   },
   {
     "id": "569",
@@ -5331,7 +5331,7 @@
       "D": "Transit gateway",
       "E": "Virtual private gateway"
     },
-    "correct": "C"
+    "correct": "C and E"
   },
   {
     "id": "570",
@@ -5354,7 +5354,7 @@
       "D": "Elimination of the need for disaster recovery planning",
       "E": "Faster deployment of new features and applications"
     },
-    "correct": "A"
+    "correct": "A and E"
   },
   {
     "id": "572",
